@@ -1,0 +1,95 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #eca5a5;
+  background: url("pcb-bg.png") no-repeat center center fixed;
+  background-size: cover;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header-box {
+  background: rgba(44, 2, 2, 0.7);
+  border-radius: 15px;
+  display: inline-block;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  background: #ff6f61;
+  color: #6c0303;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px auto;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #ffd700;
+}
+
+header p {
+  font-size: 16px;
+  color: #d3d3d3;
+}
+
+/* Navigation */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #00e5ff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3b0554;
+}
+
+/* Sections */
+main {
+  padding: 20px;
+}
+
+section {
+  background: rgba(109, 12, 17, 0.6);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #020f0c;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 30px;
+  border-top: 2px solid #8be209;
+}
